@@ -1,0 +1,61 @@
+customer-churn-prediction/
+├── .gitignore
+├── README.md
+├── app.py
+├── artifacts
+│   ├── preprocessor.pkl
+│   ├── raw.csv
+│   ├── test.csv
+│   ├── test.pkl
+│   ├── train.csv
+│   └── validation_status.txt
+├── config
+├── data
+│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+├── generate_tree.py
+├── logs
+│   ├── 05_29_2026_23_37_16.log
+│   ├── 05_31_2026_01_08_13.log
+│   ├── 05_31_2026_01_29_28.log
+│   ├── 05_31_2026_01_31_30.log
+│   ├── 05_31_2026_01_34_55.log
+│   ├── 06_03_2026_02_08_55.log
+│   ├── 06_04_2026_00_39_54.log
+│   ├── 06_04_2026_01_22_38.log
+│   ├── 06_04_2026_01_23_17.log
+│   └── 06_04_2026_01_27_08.log
+├── notebooks
+│   └── EDA.ipynb
+├── requirements.txt
+├── setup.py
+├── src
+│   ├── __init__.py
+│   ├── components
+│   │   ├── __init__.py
+│   │   ├── data_ingestion.py
+│   │   ├── data_transformation.py
+│   │   └── data_validation.py
+│   ├── exception
+│   │   ├── __init__.py
+│   │   └── custom_exception.py
+│   ├── logger
+│   │   ├── __init__.py
+│   │   └── logger.py
+│   ├── pipeline
+│   │   └── __init__.py
+│   └── utils
+│       ├── __init__.py
+│       └── utils.py
+├── static
+├── templates
+└── tests
+    ├── __init__.py
+    ├── test.py
+    ├── test_config.py
+    ├── test_dataset.py
+    ├── test_exception.py
+    ├── test_ingestion.py
+    ├── test_preprocessor.py
+    ├── test_transformation.py
+    ├── test_utils.py
+    └── test_validation.py
